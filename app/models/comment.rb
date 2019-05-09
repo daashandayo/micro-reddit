@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Comment Data Model
 class Comment < ApplicationRecord
   validates :comment, presence: true
